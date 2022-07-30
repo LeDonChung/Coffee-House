@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".fragment.HomePageFragment">
+
+    <ScrollView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Chào mừng bạn đến với \nHouse Coffee"
+                android:textColor="#040404"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:weightSum="2"
+                android:background="@drawable/custom_radius_10dp"
+                android:layout_width="match_parent">
+                <ImageView
+                    android:id="@+id/deliver"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:padding="15dp"
+                    android:src="@drawable/image_deliver"
+                    android:layout_height="match_parent"/>
+                <ImageView
+                    android:id="@+id/carriedAway"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:padding="15dp"
+                    android:src="@drawable/image_carried"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <ViewFlipper
+                android:id="@+id/viewFlipper"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_radius_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+            </ViewFlipper>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Gợi ý riêng cho bạn: "
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/productSuggest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

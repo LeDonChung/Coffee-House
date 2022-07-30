@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigationBottom"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="0dp"
+        android:visibility="gone"
+        android:layout_marginBottom="0dp" />
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/goShoppingCart"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <LinearLayout
+        android:id="@+id/goShoppingCart"
+        android:background="@drawable/border_bottom"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_above="@+id/navigationBottom"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_cafe"
+            android:text="Đến giỏ hàng nào!!"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="left|center"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btnPay"
+            android:backgroundTint="#FF0000"
+            android:layout_margin="10dp"
+            android:text="35.000đ"
+            android:padding="15dp"
+            android:background="@drawable/custom_border_radius_oval"
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:itemTextColor="#FF0101"
+        app:menu="@menu/menu_nav_main_activity"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

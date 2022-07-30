@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F8E8E8"
+    tools:context=".activity.PublicPayActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="#fff"
+        app:title="Phương thức thanh toán"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Vui lòng chọn phương thức thanh toán phù hợp cho đơn hàng của bạn"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_below="@+id/tv1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Phương thức thanh toán"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/radioGroup"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:id="@+id/money"
+                android:drawableStart="@drawable/cash"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:text="Tiền mặt"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/pay"
+                android:drawableStart="@drawable/visa"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thẻ ngân hàng"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:checked="false"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

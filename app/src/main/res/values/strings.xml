@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cofee House</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps_api_key">AIzaSyCqIowOIRW9YU3yfOPiNsIa0lRuHWCbA6c</string>
+</resources>

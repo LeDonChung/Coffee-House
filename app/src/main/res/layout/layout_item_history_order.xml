@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#fff"
+    android:layout_height="150dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_gravity="left|center"
+            android:drawablePadding="10dp"
+            android:textStyle="bold"
+            android:text="Đã giao"
+            android:drawableLeft="@drawable/done"
+            android:drawableRight="@drawable/dot"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:id="@+id/time"
+            android:text="20/7/2021"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/address"
+        android:layout_weight="5"
+        android:layout_height="0dp"
+        android:maxLines="1"
+        android:textSize="19sp"
+        android:gravity="left|center"
+        android:textColor="#000"
+        android:text="771 Phan văn trị, Gò Vấp, Hồ Chí Minh..."
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:layout_width="match_parent" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/priceAndPublicPay"
+            android:layout_gravity="left|center"
+            android:drawablePadding="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="75.000đ(Thẻ ATM)"
+            android:drawableRight="@drawable/dot"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:id="@+id/total"
+            android:text="Gồm 2 món"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

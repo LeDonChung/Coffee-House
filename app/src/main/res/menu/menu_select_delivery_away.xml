@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/delivery"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/image_deliver"
+        android:title="Giao hàng"/>
+    <item android:id="@+id/carried"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/image_carried"
+        android:title="Đến lấy"/>
+</menu>
