@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.dmt.ledonchung.coffeehouse.MainActivity;
 import com.dmt.ledonchung.coffeehouse.R;
+import com.dmt.ledonchung.coffeehouse.activity.ClauseActivity;
 import com.dmt.ledonchung.coffeehouse.activity.ContractActivity;
 import com.dmt.ledonchung.coffeehouse.activity.HistoryOrderActivity;
 import com.dmt.ledonchung.coffeehouse.activity.LoginActivity;
@@ -23,7 +24,7 @@ public class OtherFragment extends Fragment {
     private View view;
     private TextView logout, informationUser, contract;
     private MainActivity mainActivity;
-    private CardView historyOrder;
+    private CardView historyOrder, clause;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class OtherFragment extends Fragment {
         mainActivity = (MainActivity) getActivity();
         contract = view.findViewById(R.id.contractOther);
         historyOrder = view.findViewById(R.id.historyOrder);
+        clause = view.findViewById(R.id.clause);
     }
     public void eventButton() {
         historyOrder.setOnClickListener(new View.OnClickListener() {
@@ -67,6 +69,13 @@ public class OtherFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(),  UpdateUserActivity.class);
+                startActivity(intent);
+            }
+        });
+        clause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent  = new Intent(getContext(), ClauseActivity.class);
                 startActivity(intent);
             }
         });

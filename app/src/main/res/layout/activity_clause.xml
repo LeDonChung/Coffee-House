@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ClauseActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Điều khoản sử dụng"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent">
+            <TextView
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:text="Giới thiệu"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:text="Khi khách hàng truy cập vào ứng dụng The Coffee House, website order.thecoffeehouse.com hoặc đặt hàng qua hotline 18006936 của The Coffee House có nghĩa là khách hàng đã đồng ý với các điều khoản này. The Coffee House có quyền thay đổi, chỉnh sửa, thêm hoặc lược bỏ bất kỳ phần nào trong Điều khoản sử dụng này vào bất cứ lúc nào. Các thay đổi có hiệu lực ngay khi được đăng trên trang web, ứng dụng mà không cần thông báo trước. Khi khách hàng tiếp tục sử dụng dịch vụ giao hàng của The Coffee House, sau khi các thay đổi về Điều khoản này được đăng tải, có nghĩa là khách hàng chấp nhận với những thay đổi đó.
+Khách hàng vui lòng kiểm tra thường xuyên để cập nhật những thay đổi của chúng tôi."
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:text="Chấp nhận đơn hàng và giá cả"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:text="The Coffee House có quyền từ chối hoặc hủy đơn hàng của khách hàng vì bất kỳ lý do gì liên quan đến lỗi kỹ thuật, hệ thống một cách khách quan sau khi đã liên hệ thông báo với khách hàng. Trường hợp liên hệ 3 lần liên tục không thành công trong vòng 30 phút, chúng tôi sẽ tự động hủy đơn hàng của quý khách. The Coffee House rất tiếc vì chưa thể hoàn thành đơn hàng của quý khách trong trường hợp này.
+
+The Coffee House cam kết sẽ cung cấp thông tin giá cả chính xác nhất cho khách hàng. Tuy nhiên, đôi lúc vẫn có sai sót xảy ra, ví dụ như trường hợp giá sản phẩm không hiển thị chính xác trên trang web hoặc sai giá, tùy theo từng trường hợp chúng tôi sẽ liên hệ hướng dẫn hoặc thông báo hủy đơn hàng đó cho khách hàng"
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:text="Thay đổi thông tin đặt hàng"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:text="Khách hàng vui lòng cung cấp thông tin đầy đủ và chính xác ngay khi hoàn tất đặt hàng trên tại The Coffee House.
+
+The Coffee House chỉ chấp nhận thay đổi thông tin trên đơn hàng bao gồm: địa chỉ giao hàng, sản phẩm trong giỏ hàng, thông tin người nhận, thời gian giao nhận trước bước Thực hiện đơn hàng trên ứng dụng. Tùy thuộc từng trường hợp có thể hỗ trợ khách hàng sau khi kiểm tra với cửa hàng thực hiện đơn hàng và đơn vị vận chuyển, The Coffee House sẽ liên hệ thông tin cho khách hàng hoặc có quyền từ chối hỗ trợ."
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:text="Hình thức đặt hàng"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:text="Các hình thức đặt hàng:
+
+\n1. Qua ứng dụng The Coffee House
+
+\n2. Trên website https://order.thecoffeehouse.com
+
+\n3. Hotline 18006936 ( chỉ có hình thức thanh toán tiền mặt)
+
+\n4. Qua các ví điện tử: Momo, ZaloPay, ShopeePay"
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

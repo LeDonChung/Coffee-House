@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/drawable/border_bottom.xml" value="0.153" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/drawable/custom_border_radius_oval.xml" value="0.153" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/drawable/custom_btn_login.xml" value="0.153" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/drawable/custom_edit_text_input.xml" value="0.153" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/drawable/custom_radius_10dp.xml" value="0.153" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/drawable/ic_add.xml" value="0.153" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/layout/activity_main.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/layout/fragment_cake_order.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/layout/fragment_coffee_order.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/layout/fragment_home_page.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/layout/fragment_order.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Projects/BIG/CofeeHouse/app/src/main/res/layout/fragment_store.xml" value="0.2105978260869565" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/drawable-v24/ic_home.xml" value="0.105" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/drawable-v24/ic_order.xml" value="0.105" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/drawable/border_bottom.xml" value="0.1" />
@@ -29,10 +41,11 @@
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/drawable/ic_success.xml" value="0.1055" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/drawable/ic_world.xml" value="0.1185" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/drawable/search_background.xml" value="0.134" />
+        <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_clause.xml" value="0.24882075471698112" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_contract.xml" value="0.16799999999999998" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_favorite.xml" value="0.12" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_history_order.xml" value="0.25" />
-        <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_maps.xml" value="0.2" />
         <entry key="..\:/Users/PC/CofeeHouse/app/src/main/res/layout/activity_order.xml" value="0.264" />

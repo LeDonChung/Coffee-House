@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:layout_alignParentTop="true"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
         android:background="#FFFFFF" />
 
     <androidx.viewpager2.widget.ViewPager2
@@ -75,4 +75,5 @@
         app:itemTextColor="#FF0101"
         app:menu="@menu/menu_nav_main_activity"
         android:layout_alignParentBottom="true" />
+
 </RelativeLayout>
